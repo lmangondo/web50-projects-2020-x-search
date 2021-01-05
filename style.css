@@ -8,6 +8,10 @@
     padding: 5px;
 }
 
+.adv_text > P > .adv_button{
+    float: right;
+}
+
 .adv_button{
     background-color: dodgerblue;
     text-align: center;
@@ -15,7 +19,6 @@
     padding: 8px;
     font-size: 12px;
     border: 1px dodgerblue;
-    float: right;
 }
 
 .search_button{
