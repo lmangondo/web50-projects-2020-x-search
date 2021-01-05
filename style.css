@@ -15,6 +15,7 @@
     padding: 8px;
     font-size: 12px;
     border: 1px dodgerblue;
+    float: right;
 }
 
 .search_button{
