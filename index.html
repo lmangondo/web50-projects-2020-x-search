@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <link rel=stylesheet href="style.css">
     </head>
     <body>
         <div style = "text-align:right">
@@ -9,13 +10,14 @@
             <a href = "image_search.html"> Image Search </a>   
         </div>
 
-        <div style = "text-align: center;">
+        <div style = "text-align: center; padding: 200px;">
             <form action="https://google.com/search">
                 <p>
-                    <input type="text" name="q" placeholder="Enter Text Here">
+                    <input type="text" name="q" class="search_text">
                 </p>
                 <p>
-                    <input type="submit" value="Google Search">
+                    <input type="submit" value="Google Search" class="search_button">
+                    <input type="submit" value="I'm Feeling Lucky" class="search_button">
                 </p>
             </form>
         </div>
