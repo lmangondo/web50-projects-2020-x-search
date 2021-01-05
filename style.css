@@ -1,0 +1,39 @@
+.adv_text > p > label{
+    width: 180px;
+    display: inline-block;    
+}
+
+.adv_text > p > input[type=text]{
+    width: 300px;
+    padding: 5px;
+}
+
+.adv_button{
+    background-color: dodgerblue;
+    text-align: center;
+    color: white;
+    padding: 8px;
+    font-size: 12px;
+    border: 1px dodgerblue;
+}
+
+.search_button{
+    background-color:rgba(87, 85, 85, 0.062);
+    text-align: center;
+    color:gray;
+    padding: 8px;
+    font-size: 12px;
+    border: 1px lightgrey;
+}
+
+.search_text{
+    border-radius: 12px;
+    width: 400px;
+    padding: 14px;
+    border-width: 0.5px;
+    border-color: lightgrey;
+    text-align: left;
+    cursor:progress;
+    transition: none;
+    outline-width: 0;
+}
